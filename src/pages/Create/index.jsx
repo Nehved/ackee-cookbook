@@ -38,8 +38,9 @@ const Create = () => {
     () => {
       if (!inputs.name.includes('ackee')) {
         setError(true);
+      } else {
+        dispatch(onCreateRequest(inputs, ingredients));
       }
-      dispatch(onCreateRequest(inputs, ingredients));
     },
     [inputs],
   );
