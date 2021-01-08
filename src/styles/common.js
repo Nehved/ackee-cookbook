@@ -38,4 +38,5 @@ export const Separator = styled.div`
 export const StyledPlus = styled.div`
   font-size: 40px;
   color: ${({ color }) => color};
+  cursor: pointer;
 `;
