@@ -30,7 +30,7 @@ Input.propTypes = {
   mBot: string,
   type: string,
   value: string,
-  name: string.isRequired,
+  name: string,
 };
 
 Input.defaultProps = {
@@ -39,6 +39,7 @@ Input.defaultProps = {
   mBot: '',
   type: '',
   value: '',
+  name: '',
 };
 
 export default Input;

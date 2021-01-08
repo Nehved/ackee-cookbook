@@ -13,7 +13,7 @@ export const CommonWrapper = styled.div`
   width: ${sizes.mainWidth};
   height: ${sizes.mainHeight};
   box-shadow: 0 0 10px;
-  overflow: scroll;
+  overflow: auto;
 `;
 
 export const InnerContainer = styled.div`
